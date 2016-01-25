@@ -147,6 +147,81 @@
 # instance fields
 .field final Inverse:Landroid/os/Handler;
 
+.field protected mActionItemListener:Landroid/view/ActionMode$OnActionItemDragListener;
+
+.field mCanNfcShare:Z
+
+.field protected mCenterContent:Z
+
+.field mCheckForLittleTap:Landroid/widget/AbsListView$MzCheckForLittleTap;
+
+.field protected mCheckRegionRect:Landroid/graphics/Rect;
+
+.field protected mChoiceModeMZ:I
+
+.field mCurrentDragChild:Landroid/view/View;
+
+.field protected mDefaultCheckWidth:I
+
+.field mDelaySpringBack:Ljava/lang/Runnable;
+
+.field mDelaySpringBackEnabled:Z
+
+.field mDelayUpdate:Ljava/lang/Runnable;
+
+.field protected mDragAndDropId:J
+
+.field protected mDragAndDropPosition:I
+
+.field protected mDragOffsetX:I
+
+.field protected mDragOffsetY:I
+
+.field mDragShawdowView:Landroid/view/View;
+
+.field protected mDragViewBackground:I
+
+.field protected mDragViewBackgroundDelete:I
+
+.field protected mDragViewBackgroundFilter:I
+
+.field protected mDragViewhasTransient:Z
+
+.field protected mEnableForEditTextPreference:Z
+
+.field mEnableLoadAllItems:Z
+
+.field mEnablePressStateOnCheck:Z
+
+.field mHasActionDrop:Z
+
+.field mHoldDistance:I
+
+.field mHoldIndicator:Lcom/meizu/widget/MzListHoldIndicator;
+
+.field mHoldIndicatorOffset:I
+
+.field mInCheckRegion:Z
+
+.field mIsFlingToScroll:Z
+
+.field mIsListAtWindowTop:Z
+
+.field mIsThemeLight:Z
+
+.field protected mItemDragListener:Landroid/widget/AbsListView$OnItemDragListener;
+
+.field protected mListItemHeight:I
+
+.field mListWindowTop:I
+
+.field mMultiChoiceDelayRunnable:Ljava/lang/Runnable;
+
+.field protected mOnTouchOutOfItemListener:Landroid/widget/AbsListView$onTouchOutOfItemListener;
+
+.field mShadowBuilder:Landroid/widget/AbsListView$ListViewDragShadowBuilder;
+
+.field protected mShouldDelaySpringBack:Z
 .field private mAccessibilityDelegate:Landroid/widget/AbsListView$ListItemAccessibilityDelegate;
 
 .field private mActivePointerId:I
@@ -2479,6 +2554,7 @@
 
     invoke-virtual {p0, v1}, Landroid/widget/AbsListView;->setPersistentDrawingCache(I)V
 
+    invoke-static/range {p0 .. p0}, Landroid/widget/AbsListView$FlymeInjector;->initExtFlymeFields(Landroid/widget/AbsListView;)V
     return-void
 .end method
 

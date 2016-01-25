@@ -6,6 +6,9 @@
 # static fields
 .field public static final ACTION_ACMT_NETWORK_SERVICE_STATUS_INDICATOR:Ljava/lang/String; = "mediatek.intent.action.acmt_nw_service_status"
 
+.field public static final ACTION_SET_PHONE_RAT_FAMILY_DONE:Ljava/lang/String; = "android.intent.action.ACTION_SET_PHONE_RAT_FAMILY_DONE"
+
+.field public static final ACTION_SET_RADIO_CAPABILITY_DONE:Ljava/lang/String; = "android.intent.action.ACTION_SET_RADIO_CAPABILITY_DONE"
 .field public static final ACTION_ANY_DATA_CONNECTION_STATE_CHANGED:Ljava/lang/String; = "android.intent.action.ANY_DATA_STATE"
 
 .field public static final ACTION_ANY_DEDICATE_DATA_CONNECTION_STATE_CHANGED:Ljava/lang/String; = "android.intent.action.ANY_DEDICATE_DATA_STATE"
