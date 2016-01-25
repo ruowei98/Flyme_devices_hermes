@@ -1,0 +1,12 @@
+kernel=kernel
+ramdisk=RAMDISK
+page_size=2048
+kernel_size=6636016
+ramdisk_size=1284033
+base_addr=0x40078000
+kernel_offset=0x00008000
+ramdisk_offset=0x03f88000
+tags_offset=0x0df88000
+cmd_line='bootopt=64S3,32N2,64N2 androidboot.selinux=permissive'
+board="Bule"
+format=gzip

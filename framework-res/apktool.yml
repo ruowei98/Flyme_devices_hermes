@@ -1,0 +1,14 @@
+version: 2.0.3-8fee34-SNAPSHOT
+apkFileName: framework-res.apk
+isFrameworkApk: true
+sdkInfo:
+  minSdkVersion: '22'
+  targetSdkVersion: '22'
+packageInfo:
+  forced-package-id: '1'
+versionInfo:
+  versionCode: '22'
+  versionName: bule.hermes-5.1.1-201601102116
+sharedLibrary: false
+doNotCompress:
+- arsc
