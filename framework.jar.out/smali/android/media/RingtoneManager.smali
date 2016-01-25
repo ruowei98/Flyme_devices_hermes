@@ -1100,7 +1100,7 @@
 
     move-result-object v2
 
-    const v3, 0x11200c1
+    const v3, #android:bool@config_excludeRingtonesFromRemovableStorage#t
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getBoolean(I)Z
 
